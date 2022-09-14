@@ -4,16 +4,13 @@ public class tugasP22 {
     public static void main(String[] args) {
 
         while (true) {
+            String kalimat = "kalau dilakukan dengan sepenuh hati maka besi batangan pun kalau digosok terus menerus akan menjadi jarum";
             String input;
             Scanner topo = new Scanner(System.in);
 
-            System.out.print("Apa yang anda cari? : ");
+            System.out.print("Masukkan kata : ");
             input = topo.nextLine();
-            if (input.equals("kalau dilakukan dengan sepenuh hati maka besi batangan pun kalau digosok terus menerus akan menjadi jarum")){
-                System.out.println("Berikut terkait pencarian anda");
-                System.out.println("1. ");
-                System.out.println("2. ");
-                System.out.println("3. ");
+            if (kalimat.contains(input)){
                 break;
             }
         }
